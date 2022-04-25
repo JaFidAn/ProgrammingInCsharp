@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdLessonProgramming", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourthLessonProgramming", "FourthLessonProgramming\FourthLessonProgramming.csproj", "{B2948C5D-1121-49EE-A9E8-0CCA1919A77D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifesLessonProgramming", "FifesLessonProgramming\FifesLessonProgramming.csproj", "{AA5E61ED-6974-4E1A-A7B8-591D657FE437}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FivesLessonProgramming", "FifesLessonProgramming\FivesLessonProgramming.csproj", "{AA5E61ED-6974-4E1A-A7B8-591D657FE437}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
