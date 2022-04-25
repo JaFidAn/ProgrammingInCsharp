@@ -38,15 +38,19 @@ namespace ThirdLessonProgramming
 
 
             #region ToDo3
-            Console.WriteLine("Please enter first number");
-            int a = int.Parse(Console.ReadLine());
-            double x = a;
-            Console.WriteLine("Please enter second number");
-            int b = int.Parse(Console.ReadLine());
-            double y = b;
-            var devideNumber = x / y;
-            Console.WriteLine(devideNumber);
+            //Console.WriteLine("Please enter first number");
+            //int a = int.Parse(Console.ReadLine());
+            //double x = a;
+            //Console.WriteLine("Please enter second number");
+            //int b = int.Parse(Console.ReadLine());
+            //double y = b;
+            //var devideNumber = x / y;
+            //Console.WriteLine(devideNumber);
             #endregion
+
+            bool isOk = int.TryParse(Console.ReadLine(), out int result);
+            Console.WriteLine(isOk);
+            Console.WriteLine(result);
 
         }
     }
