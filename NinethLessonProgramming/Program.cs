@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NinethLessonProgramming.Model;
+using System;
 
 namespace NinethLessonProgramming
 {
@@ -6,7 +7,10 @@ namespace NinethLessonProgramming
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dog dog1 = new Dog("Alabas", "hav-hav");
+            dog1.Move();
+            dog1.Eat();
+
         }
     }
 }
